@@ -36,7 +36,7 @@ while (i <= 100) {
         output += "BUZZ";
     }
 
-    console.log('${i} ${output}');
+    console.log(`${i} ${output}`);
 
     i++;
 }
@@ -54,7 +54,7 @@ do {
         output += "BUZZ";
     }
 
-    console.log('${i} ${output}');
+    console.log(`${i} ${output}`);
 
     i++;
 } while (x <= 100);
@@ -66,12 +66,12 @@ let n = Math.round(Math.random() * (500 - 100) + 100); // creates a random numbe
 
 for (let i = 1; i <= n; i++) {
     if (i == value) {
-        console.log('Found ${value}!');
+        console.log(`Found ${value}!`);
         break;
     }
 
     if (i == n) {
-        console.log('Did not find ${value} within 1-${n}...');
+        console.log(`Did not find ${value} within 1-${n}...`);
     }
 }
 
@@ -93,5 +93,5 @@ for (let i = start; i <= end; i++) {
         output += "Buzz";
     }
     
-    console.log('${i} ${output}');
+    console.log(`${i} ${output}`);
 }
